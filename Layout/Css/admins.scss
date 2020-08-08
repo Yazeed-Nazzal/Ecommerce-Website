@@ -1,0 +1,750 @@
+$mainblue : #033F49;
+$secundblue : #1B646A;
+$mainorang : #c75013;
+
+%my_heder 
+{
+    
+        margin-top: 50px;  
+        color: $secundblue;
+        text-transform: capitalize;
+
+}
+.dog 
+{
+    font-size:400px;
+    color: $mainorang;
+}
+.dogp
+{
+    font-size: 100px;
+    color: $mainblue;
+   
+    
+    
+}
+/*  start main body */
+body
+{
+    height: 1200px;
+   
+}
+
+/* end main body */
+/* start login */
+.updiv div
+{
+    margin-bottom: 20px;
+    font-size: 40px;
+    color:$mainblue;
+    text-transform: capitalize;
+    border-radius: 8px;
+    
+}
+.updiv
+{
+   text-align: center;
+   margin-top: 100px;
+}
+.fa-exclamation-triangle ,.fa-thumbs-up
+{
+    font-size: 100px;
+    margin-bottom: 20px;
+    color: $mainorang;
+}
+
+.backRight {
+    position: absolute;
+    right: 0;
+    height: 500px;
+    width: 50%;
+    background: url('../Images/undraw_Add_friends_wa2a.png');
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .backLeft {
+    position: absolute;
+    left: 0;
+    width: 50%;
+    height: 500px;
+    background: url('../Images/undraw_thought_process_67my.png');
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  #back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -999;
+  }
+  
+  #slideBox {
+    width: 50%;
+    height: 500px;
+    overflow: hidden;
+    margin-left: 50%;
+    position: absolute;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+  .topLayer {
+    width: 200%;
+    height: 100%;
+    position: relative;
+    left: 0;
+    left: -100%;
+  }
+  
+  .left {
+    width: 50%;
+    height: 100%;
+    background-color:#f9f9f9;
+    left: 0;
+    position: absolute;
+  }
+  
+  .right {
+    width: 50%;
+    height: 100%;
+    background: #f9f9f9;
+    right: 0;
+    position: absolute;
+  }
+  
+  .content {
+      label
+      {
+          color: $mainblue;
+      }
+    width: 250px;
+    margin: 0 auto;
+    top: 10%;
+    position: absolute;
+    left: 50%;
+    margin-left: -125px;
+
+  }
+  
+  .content h2 {
+    color: $mainorang;
+    font-weight: 300;
+    font-size: 35px;
+  }
+  
+  .content .sub  {
+    background: $secundblue;
+    padding: 10px 16px;
+    width: auto;
+    font-weight: 600;
+    text-transform:  uppercase;
+    font-size: 14px;
+    color: #fff;
+    line-height: 16px;
+    letter-spacing: 0.5px;
+    border-radius: 2px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1), 0 3px 6px rgba(0,0,0,0.1);
+    border: 0;
+    outline: 0;
+    margin: 15px 15px 15px 0;
+    transition: all 0.25s;
+    cursor: pointer;
+  }
+  
+   .content .sub:hover{
+    background:$mainblue;
+    color: #fff;
+    text-decoration: none;
+    box-shadow: 0 4px 7px rgba(0,0,0,0.1), 0 3px 6px rgba(0,0,0,0.1);
+  }
+  .off {
+    background: none;
+    color:$mainblue;
+    box-shadow: none;
+  }
+
+  #goRight ,  #goLeft
+  {
+    padding: 10px 16px;
+  } 
+  .right .off:hover {
+    background: #eee;
+    cursor: pointer;
+    color: $secundblue;
+    box-shadow: none;
+  }
+  .left .off:hover {
+    box-shadow: none;
+    cursor: pointer;
+    background: #eee;
+    color: $secundblue;
+  }
+  input {
+    background: transparent;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid #45494C;
+    font-size: 14px;
+    color: $secundblue;
+    padding: 8px 0;
+  }
+
+/* end login */
+/* start navbar */
+.main-store-nav
+{
+  li
+  {
+    text-transform: capitalize;
+  }
+}
+.righ
+{
+    width: 100px;
+}
+.user
+{
+    width: 150px;
+    background-color: $mainorang;
+}
+.righ:visited 
+{   
+    color: #FFF;
+    text-transform: capitalize;
+
+}
+@media only screen and (min-width: 1000px) {
+    .righ
+    {
+        margin-right: 50px;;
+       color: #FFF;
+        background-color:$mainorang;
+        border-radius: 8px;
+     
+    }
+    
+  }
+
+.nav-item
+{
+padding-right: 2rem;
+
+}
+.navbar-dark .navbar-nav .nav-link
+{
+    color: #e3e3e6;
+
+}
+.navbar
+{
+    padding-left: 2%;
+    margin-bottom: 50px;
+   
+}
+.navbar-dark .navbar-nav .nav-link:hover
+{
+    color: #fff;
+}
+.bg-primary ,.x
+{
+    background-color: $mainblue;
+}
+.dropdown-item:hover, .dropdown-item:focus
+{
+    background-color:$secundblue;
+    color: #fff;
+}
+.navbarDropdown
+{
+    color: #FFF;
+    
+    
+}
+.c
+{
+    overflow-y: scroll;
+    max-height: 250px;
+    text-transform: capitalize;
+    padding-top: 0px;
+}
+#navbarDropdown
+{   
+    color: #FFF;
+    text-transform: capitalize;
+    a 
+    {
+        color: #FFF;
+    }
+
+}
+.righ:visited 
+{   
+    color: #FFF;
+    text-transform: capitalize;
+
+}
+@media only screen and (min-width: 1000px) {
+    .righ
+    {
+        margin-right: 20px;;
+       color: #FFF;
+        background-color:$mainorang;
+        border-radius: 8px;
+     
+    }
+    
+  }
+  .navbar-brand 
+  {
+      font-weight: 600;
+      border-right: solid 2px  $mainorang;
+      padding-right: 20px;
+  }
+  .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
+    color: 
+    $mainorang;
+  
+}
+.navbar-collapse
+{
+    padding-left: 3%;;
+}
+.clear
+{
+    clear: both;
+}
+
+.upar
+{
+    
+    background-color: $secundblue;
+    padding:2px 0px 2px 0px;
+
+
+    .loghsin
+    {
+        
+        color: #f9f9f9;
+        margin-right: 20px;
+       
+    }
+    a:hover
+    {
+        color: #FFF;
+        text-decoration: none;
+       
+    }
+}
+.upercon
+{
+  margin-bottom: 10px;
+}
+.uperspan
+{
+  background: $secundblue;
+  padding: 10px 16px;
+  width: auto;
+  font-weight: 600;
+  text-transform:  uppercase;
+  font-size: 14px;
+  color: #fff;
+  line-height: 16px;
+  letter-spacing: 0.5px;
+  border-radius: 2px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1), 0 3px 6px rgba(0,0,0,0.1);
+  border: 0;
+  outline: 0;
+  margin: 0px 30px 0px 0;
+  transition: all 0.25s;
+  cursor: pointer;
+  display: inline-block;
+}
+.notcro
+{
+  cursor: auto;
+}
+@media only screen and (max-width:1000px){
+  .uperspan
+  {
+    margin-bottom: 20px;
+  }
+
+}
+//end nav bar
+//------------------------------------------------------------------------
+//stert catecories
+.scatdiv 
+{
+    h2 
+    {
+     @extend %my_heder;
+     margin-bottom: 20px;
+    }
+    .itembox
+    {
+      
+    }
+    .pricr-tag
+    {
+      
+    }
+
+}
+//end catecories
+
+//start profile
+.card-header
+{
+    background-color: $mainblue;
+    color: #f9f9f9;
+    box-shadow:  #45494C -3px -2px 2px;
+  
+}
+.profh
+{
+  color: $mainorang;
+  font-weight: 300;
+  font-size: 35px;
+  margin-bottom: 30px;
+  text-transform: capitalize;
+}
+
+.pthumb
+{
+  width: 85%;
+}
+.adscard
+{
+  max-height: 500px;
+}
+@media only screen and (max-width: 1000px)
+{
+  .adscard
+  {
+  max-height: 800px;
+  }
+}
+.pthumbimg
+{
+  width: 100%;
+  height: 250px;
+}
+.pcard
+{
+  overflow-y: scroll;
+}
+.nthbody p 
+{
+  padding: 10px 16px;;
+}
+.nthbody p:nth-child(odd)
+{
+  background-color:#eee; ;
+}
+.card-body .fas
+{
+  margin-right: 8px;
+  color: $mainorang;
+}
+.newAD
+{
+  padding-left: 12px;
+  color: $mainorang;
+  text-decoration: none;
+  padding: 10px 10px;
+}
+.newAD:hover {
+  box-shadow: none;
+  cursor: pointer;
+  color: $mainorang;
+  text-decoration: none;
+}
+.idate
+{
+  font-size: 12px;
+  color: #a4acad;
+  padding-top: 0px;
+}
+.itema
+{
+  color: $secundblue;
+  text-transform: capitalize;
+}
+.itema:hover
+{
+  text-decoration: none;
+  color: $mainorang;
+}
+.cata
+{
+  color: $mainblue;
+  text-transform: capitalize;  
+}
+.cata:hover
+{
+ text-decoration: none;
+ color: $mainorang;
+}
+.itemh
+{
+  color: $mainorang;
+  font-weight: 600px;
+  font-size: 40px;
+  margin-bottom: 40px;
+
+}
+.itemhr
+{
+  border-top: $mainblue solid 2px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+.sub
+{
+  background:
+  #1B646A;padding: 10px 7px;
+  width: auto;
+  font-weight: 596;
+  text-transform: uppercase;
+  font-size: 12px;
+  color:
+  #fff;
+  line-height: 14px;
+  letter-spacing: 0.5px;
+  border-radius: 2px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1), 0 3px 6pxrgba(0, 0, 0, 0.1);
+      border: 0;
+      outline: 0;
+      margin: 15px 15px 15px 0;
+      transition: all 0.25s;
+      
+  }
+  .sub:hover
+  {
+    background-color: $mainblue;
+  }
+  .commentform
+  {
+    margin-top: 10px;
+  }
+  .comh
+  {
+    color: $mainblue;
+  }
+  textarea
+  {
+    resize: none;
+    overflow-y: scroll;
+  }
+  .approvespan
+  {
+  position: absolute;
+  top: 100px;
+  background:$mainorang;
+  padding: 10px 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 14px;
+  color:#fff;
+  line-height: 16px;
+  letter-spacing: 0.5px;
+  border-radius: 2px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.1);
+  
+
+  }
+  .profile-edit
+  {
+    background: $mainorang;
+    padding: 10px 16px;
+    width: auto;
+    font-weight: 600;
+    text-transform:  uppercase;
+    font-size: 14px;
+    color: #fff;
+    line-height: 16px;
+    letter-spacing: 0.5px;
+    border-radius: 2px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1), 0 3px 6px rgba(0,0,0,0.1);
+    border: 0;
+    outline: 0;
+    transition: all 0.25s;
+    cursor: pointer;
+    
+  }
+  .profile-edit:hover
+  {
+    color: #fff;
+    background-color: $mainorang;
+    text-decoration: none;
+
+  }
+
+
+//end profile
+//start new ads
+.ed input , .ed select
+{
+    width: 400px;
+    
+   
+}
+
+.edcon 
+{
+    margin-top: 50px;
+    
+}
+.edbtn 
+{
+    background-color:$mainblue ;
+ 
+}
+.edbtn:hover, .edbtn:focus
+{
+    background-color: $secundblue;
+
+}
+.edh 
+{
+  color:#c75013;
+font-weight: 300;
+font-size: 35px;
+margin-bottom: 30px;
+text-transform: capitalize;
+}
+.eimg
+{
+    width: 300px;
+    height: 400px;
+    background-image: url('../Images/undraw_cup_of_tea_6nqg.png');
+    background-size: cover;
+    background-origin: content-box;
+    border-radius: 5px;
+    -moz-transition-duration: 1000ms;
+    -webkit-transition-duration: 1000ms;
+    -o-transition-duration: 1000ms;
+    transition-duration: 1000ms;
+    transform: scale(1,1); 
+  
+}
+.eimg:hover
+{
+   -moz-transition-duration: 1000ms;
+   -webkit-transition-duration: 1000ms;
+   -o-transition-duration: 1000ms;
+   transition-duration: 1000ms;
+   transform: scale(1.1,1.1); 
+  
+   
+}
+.dog 
+{
+    font-size:400px;
+    
+    color: $mainorang;
+}
+.dogp
+{
+    font-size: 100px;
+    color: $mainblue;
+   
+      
+}
+
+    
+  .adimg
+  {
+     height:270px;
+  }
+  .pricr-tag
+{
+  position: absolute;
+  top: 10px;
+  background: #1B646A;
+  padding: 10px 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 14px;
+  color:#fff;
+  line-height: 16px;
+  letter-spacing: 0.5px;
+  border-radius: 2px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+.live-show
+{
+  margin-left: 40%;
+}
+@media only screen and (max-width: 1000px) {
+  .eimg
+  {
+      display: none;
+
+  }
+  .dog 
+  {
+      font-size:200px;
+  }
+  .dogp
+  {
+      font-size: 50px;
+   
+      
+  }
+  .ed input , .ed input , .ed select
+{
+  width: 300px;
+  
+ 
+}
+.edfilds
+{
+margin-left: 15%;
+margin-bottom: 50px;
+}
+.live-show
+{
+margin-left: 10%;
+}
+}
+  //end new ads
+
+  //start comment
+.comimg
+{
+  height: 70px;
+
+}
+.comentinfo
+{
+   text-transform: capitalize;
+ 
+  
+}
+.comentinfo span
+{
+margin-left: 6px;
+font-weight: 600;
+font-size: 20px;
+color: $mainorang;
+}
+.commentdata
+{
+  padding-top: 16px;
+  border: solid 1px $secundblue;
+  margin-bottom: 2px;
+  padding: 5px 12px;
+  background-color: #eee;
+  border-radius: 12px;
+  
+  margin-top: 12px;
+}
+.commentaddimg
+{
+  background-image: url('../Images/undraw_public_discussion_btnw.png');
+  background-size: cover;
+  width: 50%;
+  
+}
+
+  //end comment
